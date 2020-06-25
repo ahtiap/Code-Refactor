@@ -7,10 +7,12 @@
 body {
   background-color: #d9dcd6;
 }
-/* used the tag "header" instead of the class.Change the display to flex to contain the links when shrinking tabs*/
+/* used the tag "header" instead of the class.Change the display to flex to contain the links when shrinking tabs.
+Changed position to fixed, and width to 100%*/
 header {
+  width: 100%;
+  position: fixed;
   display: flex;
-  justify-content: center;
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -44,7 +46,7 @@ header nav ul {
 /* changed div to nav, to get it in sync with html*/
 header nav ul li {
   display: inline-block;
-  margin-left: 25px;
+  margin-left: 50px;
 }
 
 a {
